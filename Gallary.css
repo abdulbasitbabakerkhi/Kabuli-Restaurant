@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('f3.jpg');
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header h1{
+    color:#fff;
+    font-size: 50px;
+}
+header span{
+    font-size: 78px;
+    color: red;
+}
+nav ul li{
+    display: flex;
+    padding: 20px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+}
+a:hover{
+    font-size: 30px;
+    
+    color:yellow;
+    transition: 0.3s;
+}
+div{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+h2{
+    font-size: 40px;
+    color: #fff;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    padding: 15px;
+}
+img:hover{
+    width: 260px;
+    height: 260px;
+}
